@@ -1,7 +1,7 @@
 ## Exp 8: Reproducing an Image Using Prompts for Image Generation
 
-# Date :
-# Reg. No. 
+# Date :24/09/2025
+# Reg. No. 212222210027
 
 ## Aim:
 To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
@@ -53,3 +53,83 @@ By using detailed and well-crafted prompts, text-to-image generation models can 
 
 
 ## IMAGES: (CHOOSE ANY TWO BELOW AND REPRODUCE)
+
+📌 Prompt Engineering for Portrait Transformation
+🔹 Introduction
+
+Prompt engineering is the process of crafting precise and structured instructions to guide AI models (text-to-image or text-to-text) toward producing desired outputs. In image transformation, prompts must balance style description (e.g., “anime style”) with content fidelity (keeping the same pose, facial expression, and character identity).
+
+🔹 Procedure
+
+Identify Key Elements to Preserve
+
+Expression (smile, neutral, serious, etc.)
+
+Pose (sitting, standing, hand position)
+
+Character identity (hair color, facial structure, clothing).
+
+Choose Target Style
+
+Example: “anime style,” “Studio Ghibli-inspired,” “90s anime aesthetic,” etc.
+
+Construct the Prompt
+
+Content description: who/what is in the portrait.
+
+Style keywords: “anime-style,” “cel-shaded,” “vibrant colors.”
+
+Preservation cues: “maintain original pose and expression.”
+
+Medium/quality cues: “high-resolution, digital painting.”
+
+Example Prompt:
+
+“Convert a classic realism portrait of a young woman with long brown hair, calm expression, and upright seated pose into a stylized anime digital artwork. Preserve the same facial expression and body pose while adding smooth cel-shaded coloring, large expressive anime eyes, and soft lighting.”
+
+Refine with Negative Prompts (optional)
+
+Add: “no distortion, no extra limbs, no background clutter.”
+
+Generate & Iterate
+
+Review output → adjust style words (e.g., “modern anime,” “retro anime”).
+
+🔹 Advantages & Disadvantages
+
+✅ Advantages
+
+Allows high control over artistic transformation.
+
+Enables creativity while preserving essential features.
+
+Can adapt to multiple styles (anime, comic, oil painting).
+
+⚠️ Disadvantages
+
+Overly vague prompts may distort identity or pose.
+
+Too many style modifiers can overpower content fidelity.
+
+Requires trial and error to reach desired balance.
+
+🔹 Image Flowchart
+Classic Portrait (Realism)  
+        │  
+        ▼  
+ [Key Features Extraction] → (expression, pose, clothing)  
+        │  
+        ▼  
+   [Style Injection] → (anime keywords, cel-shading, lighting)  
+        │  
+        ▼  
+     [AI Model]  
+        │  
+        ▼  
+  Stylized Anime Portrait
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6ed2e58a-501a-4cd4-b2b5-2babbc478a13" />
+
+🔹 Result Example
+
+Here’s a demonstration: I’ll generate a sample stylized anime version of a portrait (not of you, just a generic realism → anime conversion example).
+
